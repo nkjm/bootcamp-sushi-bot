@@ -1,6 +1,6 @@
 // -----------------------------------------------------------------------------
 // モジュールのインポート
-const express = require("express")();
+const server = require("express")();
 const line = require("@line/bot-sdk"); // Messaging APIのSDKをインポート
 const dialogflow = require("apiai-promisified");
 
