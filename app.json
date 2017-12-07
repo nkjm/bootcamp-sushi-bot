@@ -1,0 +1,27 @@
+{
+  "name": "Sushi Bot",
+  "description": "A sample LINE Chatbot who can handle sushi delivery order.",
+  "repository": "https://github.com/nkjm/sushi-bot",
+  "logo": "https://dl.dropboxusercontent.com/content_link/9nLrfw3mJtV9VG26RZ1AQAcBhQKQ3oGOMIdWYlP9KoXPuMeKzULNwRDBJjTxo3tu/file",
+  "env": {
+      "LINE_CHANNEL_SECRET": {
+          "description": "Secret key to validate the access to your webhook. You can find it in LINE Developers Console.",
+          "required": true
+      },
+      "LINE_ACCESS_TOKEN": {
+          "description": "Token to add to your API call for LINE Messaging API. You can find it in LINE Developers Console.",
+          "required": true
+      },
+      "DIALOGFLOW_CLIENT_ACCESS_TOKEN": {
+          "description": "Token to add to your API call for Dialogflow. You can find it in agent setting in Dialogflow Console.",
+          "required": true
+      },
+      "DEBUG": {
+          "description": "Flag to switch debugging level and target scripts.",
+          "required": false,
+          "value": "bot-express:*"
+
+      }
+  },
+  "keywords": ["line", "bot", "chatbot", "sushi"]
+}
