@@ -2,7 +2,7 @@
   "name": "Sushi Bot",
   "description": "A sample LINE Chatbot who can handle sushi delivery order.",
   "repository": "https://github.com/nkjm/sushi-bot",
-  "logo": "https://dl.dropboxusercontent.com/content_link/9nLrfw3mJtV9VG26RZ1AQAcBhQKQ3oGOMIdWYlP9KoXPuMeKzULNwRDBJjTxo3tu/file",
+  "logo": "https://raw.githubusercontent.com/nkjm/sushi-bot/master/image/logo.png",
   "env": {
       "LINE_CHANNEL_SECRET": {
           "description": "Secret key to validate the access to your webhook. You can find it in LINE Developers Console.",
