@@ -1,14 +1,14 @@
 {
   "name": "sushi-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A sample LINE Chatbot who can handle sushi delivery order.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kazuki Nakajima",
+  "license": "MIT",
   "dependencies": {
     "@line/bot-sdk": "^5.0.1",
     "apiai-promisified": "^1.0.1",
