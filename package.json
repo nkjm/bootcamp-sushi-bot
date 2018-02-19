@@ -12,7 +12,7 @@
   "dependencies": {
     "@line/bot-sdk": "^5.0.1",
     "apiai-promisified": "^1.0.1",
-    "bot-express": "^0.1.1",
+    "bot-express": "^0.2.15",
     "express": "^4.16.2"
   }
 }
