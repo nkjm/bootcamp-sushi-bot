@@ -1,17 +1,26 @@
 {
-  "name": "sushi-bot",
+  "name": "bootcamp-sushi-bot",
   "version": "1.0.0",
-  "description": "A sample LINE Chatbot who can handle sushi delivery order.",
+  "description": "This is a sample LINE chatbot who can handle sushi delivery order.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Kazuki Nakajima",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkjm/bootcamp-sushi-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkjm/bootcamp-sushi-bot/issues"
+  },
+  "homepage": "https://github.com/nkjm/bootcamp-sushi-bot#readme",
   "dependencies": {
-    "@line/bot-sdk": "^5.0.1",
+    "@line/bot-sdk": "^6.0.1",
+    "bot-express": "^0.3.0",
+    "debug": "^3.1.0",
     "dialogflow": "^0.3.0",
-    "express": "^4.16.2"
+    "express": "^4.16.3"
   }
 }
