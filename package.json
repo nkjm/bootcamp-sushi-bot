@@ -4,14 +4,15 @@
   "description": "This is a sample LINE chatbot who can handle sushi delivery order.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nkjm/bootcamp-sushi-bot.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Kazuki Nakajima",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nkjm/bootcamp-sushi-bot/issues"
   },
