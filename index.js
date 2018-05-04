@@ -21,7 +21,9 @@ server.use("/webhook", bot_express({
         type: "dialogflow",
         language: "ja",
         options: {
-            client_access_token: process.env.DIALOGFLOW_CLIENT_ACCESS_TOKEN
+            project_id: process.env.GOOGLE_PROJECT_ID,
+            client_email: process.env.GOOGLE_CLIENT_EMAIL,
+            private_key: process.env.GOOGLE_PRIVATE_KEY
         }
     },
     memory: {
