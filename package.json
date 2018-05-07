@@ -19,7 +19,7 @@
   "homepage": "https://github.com/nkjm/bootcamp-sushi-bot#readme",
   "dependencies": {
     "@line/bot-sdk": "^6.0.1",
-    "bot-express": "^0.3.0",
+    "bot-express": "^0.3.3",
     "debug": "^3.1.0",
     "dialogflow": "^0.3.0",
     "express": "^4.16.3"
